@@ -14,11 +14,11 @@ Este é um programa simples em Java que simula operações bancárias para difer
 1. Clone o repositório para a sua máquina.
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
-Digite o ID do usuário para interagir com a conta correspondente.
+2. Digite o ID do usuário para interagir com a conta correspondente.
 
-Escolha uma das operações disponíveis.
+3. Escolha uma das operações disponíveis.
 
-Estrutura do Código
+## Estrutura do Código
 O programa utiliza arrays para armazenar informações dos usuários, como nomes, tipos de conta, saldos e IDs.
 
 A entrada do usuário é lida usando a classe Scanner.
