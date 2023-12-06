@@ -13,7 +13,7 @@ Este é um programa simples em Java que simula operações bancárias para difer
 
 1. Clone o repositório para a sua máquina.
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/SNODHER/Sistema_de_conta_bancaria/blob/master/src/Sistema_de_conta_bacaria.java.git
 2. Digite o ID do usuário para interagir com a conta correspondente.
 
 3. Escolha uma das operações disponíveis.
