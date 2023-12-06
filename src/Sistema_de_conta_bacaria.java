@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Sistema_de_conta_bacaria {
     public static void main(String[] args) {
-        String[] nomes = {"Jessica", "Pedro", "Amanda", "João"}; // Nomes dos usuários
-        String[] tiposConta = {"Corrente", "Corrente", "Corrente", "Corrente"}; // Tipos de conta dos usuários
-        double[] saldos = {2500, 1500, 3000, 2000}; // Saldo inicial de cada usuário
-        int[] ids = {2321, 2322, 2323, 2324}; // IDs dos usuários
+        String[] nomes = {"Jessica", "Pedro", "Amanda", "João"};
+        String[] tiposConta = {"Corrente", "Corrente", "Corrente", "Corrente"};
+        double[] saldos = {2500, 1500, 3000, 2000};
+        int[] ids = {2321, 2322, 2323, 2324};
 
         Scanner inserir = new Scanner(System.in);
 
@@ -16,7 +16,6 @@ public class Sistema_de_conta_bacaria {
 
         int indiceUsuario = -1;
 
-        // Procurar o ID digitado
         for (int i = 0; i < ids.length; i++) {
             if (idDigitado == ids[i]) {
                 indiceUsuario = i;
