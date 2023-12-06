@@ -11,6 +11,6 @@ Este é um programa simples em Java que simula operações bancárias para difer
 
 ## Como Usar
 
-1. Clone o repositório para a sua máquina local.
+1. Clone o repositório para a sua máquina.
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
