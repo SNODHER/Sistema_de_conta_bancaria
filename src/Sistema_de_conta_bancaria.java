@@ -63,7 +63,7 @@ public class Sistema_de_conta_bancaria {
                 System.out.println("Saldo atual: " + saldos[indiceUsuario]);
                 System.out.println("\n***********************");
 
-                while (opcao != 9) {
+                while (opcao != 8) {
                     System.out.println("""
                             Operações
                             
@@ -159,7 +159,7 @@ public class Sistema_de_conta_bancaria {
 
                                     if (!senhaDigitada.equals(senhas[indiceUsuario])) {
                                         System.out.println("Senha incorreta. Acesso negado.");
-                                        opcao = 8; // Encerra o loop
+                                        opcao = 9; // Encerra o loop
                                     } else {
                                         System.out.println("***********************");
                                         System.out.println("\nNome do cliente: " + nomes[indiceUsuario]);
