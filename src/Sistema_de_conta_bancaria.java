@@ -63,7 +63,7 @@ public class Sistema_de_conta_bancaria {
                 System.out.println("Saldo atual: " + saldos[indiceUsuario]);
                 System.out.println("\n***********************");
 
-                while (opcao != 8) {
+                while (opcao != 9) {
                     System.out.println("""
                             Operações
                             
@@ -72,6 +72,7 @@ public class Sistema_de_conta_bancaria {
                             3- Histórico de Transações
                             4- Depósito de Cheques
                             5- Transferir dinheiro por ID
+                            6- Histórico Geral de Transações
                             7- Trocar de usuário
                             8- Sair
                             """);
@@ -139,6 +140,12 @@ public class Sistema_de_conta_bancaria {
 
                                     System.out.println("Transferência de " + valorTransferencia + " para " + nomes[indiceDestinatario] + " realizada com sucesso.");
                                 }
+                            }
+                            break;
+                        case 6:
+                            System.out.println("Histórico Geral de Transações:");
+                            for (Transacao transacao : historicoGeral) {
+                                System.out.println(transacao.descricao + ": " + transacao.valor);
                             }
                             break;
                         case 7:
